@@ -1,0 +1,22 @@
+.container {
+	background-color: white;
+	width: 100%;
+}
+
+.input {
+	padding: .75rem;
+	background-color: #dddddd;
+	flex-grow: 1;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.button {
+	padding: .75rem 1.5rem;
+	background-color: #67aeda;
+	cursor: pointer;
+	color: black;
+	transition: 300ms;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}

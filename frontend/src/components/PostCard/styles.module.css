@@ -1,0 +1,50 @@
+.container {
+	flex-direction: column;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.header {
+	flex-direction: column;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: .5rem;
+	background-color: #FFFFFF;
+}
+
+.text {
+	margin: .5rem;
+	white-space: pre-wrap;
+}
+
+.footer {
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	align-items: center;
+}
+
+.thumbsUp, .commentSquare {
+	margin: .5rem;
+}
+
+.title, .author {
+	margin: .25rem 0;
+}
+
+.comment, .comment:visited {
+	display: inline-flex;
+	align-items: center;
+	width: auto;
+	cursor: pointer;
+	color: black;
+}
+
+.date {
+	margin-left: auto;
+	margin-right: 1rem;
+}
+
+.postLink, .postLink:visited {
+	color: black;
+}

@@ -1,0 +1,33 @@
+.container {
+	flex-direction: column;
+}
+
+.navbar {
+	position: sticky;
+	top: 0;
+}
+
+.postCardFeed {
+	/* margin-top: 1rem; */
+}
+
+.AuthorFeed {
+	top: 4.1rem;
+	position: sticky;
+	align-self: flex-start;
+	/* margin-top: 1rem; */
+}
+
+.post {
+	margin: .25rem 0;
+}
+
+/* .container > * {
+	animation-name: fade;
+	animation-duration: .5s;
+}
+
+@keyframes fade {
+	from {opacity: 0%;}
+	to {opacity: 100%;}
+} */

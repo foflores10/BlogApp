@@ -1,0 +1,28 @@
+.container {
+	flex-direction: column;
+}
+
+.navbar {
+	position: sticky;
+	top: 0;
+}
+
+.authorDetails {
+	margin: 0 auto .25rem auto;
+	width: 90%;
+}
+
+.postCardFeed {
+	margin: .25rem auto;
+	width: 90%
+}
+
+/* .container > * {
+	animation-name: fade;
+	animation-duration: .5s;
+}
+
+@keyframes fade {
+	from {opacity: 0%;}
+	to {opacity: 100%;}
+} */

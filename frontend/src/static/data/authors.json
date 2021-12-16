@@ -1,0 +1,58 @@
+[
+	{
+		"type": "author",
+		"id": 1,
+		"dateCreated": "2021-05-26 02:00:35+00:00",
+		"dateModified": "2021-05-26 02:00:35+00:00",
+		"firstName": "Favian",
+		"lastName": "Flores",
+		"username": "foflores",
+		"email": "floresf1997@gmail.com",
+		"birthday": "1997-06-18",
+		"about": "This section is all about Favian...",
+		"totalPosts": 4,
+		"totalPostLikes": 12,
+		"totalCommentLikes": 0
+	},
+	{
+		"type": "author",
+		"id": 2,
+		"dateCreated": "2021-05-26 02:00:35+00:00",
+		"dateModified": "2021-05-26 02:00:35+00:00",
+		"firstName": "Jhanina",
+		"lastName": "Arias",
+		"username": "qwerty",
+		"email": "jhanina123@gmail.com",
+		"birthday": "1998-04-10",
+		"about": "This section is all about Jhanina...",
+		"totalPosts": 4,
+		"totalPostLikes": 15,
+		"totalCommentLikes": 0
+	},
+	{
+		"type": "author",
+		"id": 3,
+		"dateCreated": "2021-05-26 02:00:35+00:00",
+		"dateModified": "2021-05-26 02:00:35+00:00",
+		"firstName": "John",
+		"lastName": "Bejarano",
+		"birthday": "1995-10-04",
+		"about": "This section is all about John...",
+		"totalPosts": 4,
+		"totalPostLikes": 10,
+		"totalCommentLikes": 0
+	},
+	{
+		"type": "author",
+		"id": 4,
+		"dateCreated": "2021-05-26 02:00:35+00:00",
+		"dateModified": "2021-05-26 02:00:35+00:00",
+		"firstName": "Arnaldo",
+		"lastName": "Lopez",
+		"birthday": "1999-01-28",
+		"about": "This section is all about Arnaldo...",
+		"totalPosts": 4,
+		"totalPostLikes": 999,
+		"totalCommentLikes": 0
+	}
+]

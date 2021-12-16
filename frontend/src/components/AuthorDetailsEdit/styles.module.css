@@ -1,0 +1,82 @@
+.container {
+	margin: auto;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ffffff;
+	padding: 1rem;
+	border-radius: 5px;
+
+}
+
+.authorImage {
+	width: 5rem;
+	height: 5rem;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	margin: .5rem;
+}
+
+.detailContainer {
+	justify-content: center;
+	background-color: #dddddd;
+	width: max-content;
+	border-radius: 5px;
+	margin: .5rem;
+}
+
+.detailLabels, .detailData {
+	margin: .5rem;
+	padding: 1rem;
+	width: max-content;
+	flex-direction: column;
+}
+
+.detail {
+	margin: .5rem;
+}
+
+.detailInput {
+	margin: .5rem;
+	padding: .15rem .5rem;
+	border-radius: 5px;
+}
+
+.aboutMe {
+	margin: .5rem;
+	padding: 1rem;
+	width: fit-content;
+	max-width: 90%;
+	min-width: 18.6rem;
+	flex-direction: column;
+	background-color: #dddddd;
+	border-radius: 5px;
+	align-items: center;
+}
+
+.title {
+	align-self: center;
+}
+
+.editButton, .changeImageButton {
+	margin: .5rem;
+	padding: .75rem 1.5rem;
+	background-color: #dddddd;
+	transition: 300ms;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.editButton:hover, .changeImageButton:hover {
+	background-color: #cfcfcf;
+}
+
+.textArea {
+	margin: .5rem;
+	padding: .5rem;
+	width: 90%;
+	min-width: 40rem;
+	height: 5rem;
+	border-radius: 5px;
+	max-width: 90%;
+	max-height: 30rem;
+}

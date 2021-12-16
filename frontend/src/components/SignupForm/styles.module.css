@@ -1,0 +1,36 @@
+.container {
+	margin: auto;
+	flex-direction: column;
+	background-color: white;
+	padding: 2rem;
+	padding-top: 1rem;
+	border-radius: 5px;
+	box-shadow:  0 5px 20px #00000055;
+}
+
+.label {
+	padding: .25rem;
+}
+
+.input {
+	margin: .25rem 0;
+	padding: .5rem;
+	border: 1px solid #000000;
+}
+.button {
+	background-color: #67aeda;
+	cursor: pointer;
+	margin-top: .5rem;
+	padding: .75rem;
+	color: black;
+	transition: 300ms;
+}
+
+.button:hover {
+	background-color: #67aedaDD;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: .75rem;
+}

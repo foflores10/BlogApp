@@ -1,0 +1,25 @@
+.container {
+	flex-direction: column;
+	width: 80%;
+	margin: 1rem auto;
+}
+
+.postEditForm {
+	width: 80%;
+	margin: 1rem auto;
+}
+
+.navbar {
+	position: sticky;
+	top: 0;
+}
+
+/* .container > * {
+	animation-name: fade;
+	animation-duration: .5s;
+}
+
+@keyframes fade {
+	from {opacity: 0%;}
+	to {opacity: 100%;}
+} */

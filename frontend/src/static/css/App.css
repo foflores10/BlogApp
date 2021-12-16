@@ -1,0 +1,33 @@
+/* Clear browser styling */
+* {
+	box-sizing: border-box;
+	border: 0 none;
+	border-radius: 0;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+:root {
+	font-size: medium;
+}
+
+
+/* Default to flexbox */
+div, nav, ul, form, .row {
+	display: flex;
+	width: 100%;
+}
+
+
+/* Base style */
+#root {
+	top:0;
+	bottom: 0;
+}
+
+Body {
+	background: linear-gradient(180deg, #312d59 0%, #096279 100%);
+	background-attachment: fixed;
+}

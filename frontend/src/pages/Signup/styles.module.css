@@ -1,0 +1,14 @@
+.container {
+	margin: auto;
+	width: 30rem;
+}
+
+.container > * {
+	animation-name: fade;
+	animation-duration: .5s;
+}
+
+@keyframes fade {
+	from {opacity: 0%;}
+	to {opacity: 100%;}
+}

@@ -1,0 +1,16 @@
+.container {
+	margin: auto
+}
+
+.item {
+	color: #000000;
+	padding: .6rem;
+	margin: .4rem;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	transition: 300ms;
+}
+
+.item:hover {
+	background-color: #FFFFFFBB;
+}

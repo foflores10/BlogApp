@@ -1,0 +1,18 @@
+.container {
+	flex-direction: column;
+	background-color: #FFFFFF;
+	padding: .25rem;
+	border-radius: 5px;
+	margin: auto;
+}
+
+.title {
+	text-align: center;
+	margin: .25rem;
+}
+
+.authorTile, .authorTile:visited {
+	margin: .25rem 0;
+	text-decoration: none;
+	color: black;
+}

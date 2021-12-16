@@ -1,0 +1,49 @@
+.container {
+	/* margin: auto; */
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.authorImg {
+	/* margin:.25rem .5rem; */
+	height: 4rem;
+	width: 4rem;
+	border-radius: 5px;
+	/* border: 1px solid black */
+}
+
+.authorInfo {
+	flex-direction: column;
+	justify-content: center;
+	margin: .25rem .5rem;
+	width: 50%;
+	/* min-width: 40%;
+	max-width: 50%; */
+	/* flex-grow: 1;
+	flex-shrink: 1; */
+}
+
+.authorName {
+	margin: .25rem;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.authorLikes {
+	align-items: center;
+	margin-right: auto;
+	width: max-content;
+
+}
+
+.likeCount {
+	margin: 0 .75rem;
+}
+
+.authorUsername {
+	font-size: small;
+	margin: .25rem;
+}

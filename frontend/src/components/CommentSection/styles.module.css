@@ -1,0 +1,26 @@
+.container {
+	flex-direction: column;
+	background-color: #ffffff;
+	padding: 1rem;
+	border-radius: 5px;
+	min-height: fit-content;
+	max-height: 90vh;
+	margin-bottom: 1rem;
+}
+
+.commentsContainer {
+	flex-direction: column-reverse;
+	flex: 1;
+	overflow: scroll;
+	height: 100%;
+	margin: .25rem 0;
+}
+
+.commentsContainer::-webkit-scrollbar {
+	display: none;
+}
+
+.commentInput {
+	flex: 0 0 3rem;
+	justify-self: end;
+}

@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	background-color: #312d59;
+	list-style-type: none;
+	justify-content: space-between;
+}
+
+.container li {
+	display: flex;
+}
+
+.brand {
+	color: #ffffff;
+	padding: 1rem;
+	margin: auto;
+}
+
+.searchBar {
+	width: 30rem;
+	min-width: none;
+}

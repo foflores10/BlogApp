@@ -1,0 +1,40 @@
+.container {
+	width: 100%;
+	margin: auto;
+	flex-direction: column;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0 5px 20px #00000055;
+	padding: 1rem;
+	align-items: center;
+}
+
+.title, .label {
+	margin: .5rem;
+}
+
+.inputTitle, .inputText {
+	background-color: #dddddd;
+	font-size: 1.1rem;
+	color: #000000;
+	padding: .5rem;
+	width: 100%;
+}
+
+.inputText {
+	resize: none;
+	height: 20rem;
+}
+
+.button {
+	padding: .75rem 1.5rem;
+	margin: .25rem 0;
+	background-color: #67aeda;
+	cursor: pointer;
+	color: black;
+	transition: 300ms;
+}
+
+.button:hover {
+	background-color: #67aedaDD;
+}
